@@ -27,5 +27,4 @@ def parse1(name=None):
 	return render_template('index.html',name=name)
 
 if __name__ == '__main__':
-    app.run()
-    app.debug = True
+    app.run(debug=true host='0.0.0.0')
