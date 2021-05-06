@@ -1,144 +1,66 @@
-<!--<a href="/exec" class="button"> This link will invoke Parse method </a> -->
-<html>
-<body>
-<style>
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
-@import url(https://fonts.googleapis.com/css?family=Comfortaa);
-
-body {
-  font-family: 'Comfortaa', cursive;
-  background: #353535;
-  color: #FFF;
-}
-.jumbotron h1 {
-  color: #353535;
-}
-
-
-footer {
-  margin-bottom: 0 !important;
-  margin-top: 80px;
-}
-footer p {
-  margin: 0;
-  padding: 0;
-}
-span.icon {
-  margin: 0 5px;
-  color: #D64541;
-}
-h2 {
-  color: #BDC3C7;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.mrng-60-top {
-  margin-top: 60px;
-}
-/* Global Button Styles */
-a.animated-button:link, a.animated-button:visited {
-  position: relative;
-  display: block;
-  margin: 30px auto 0;
-  padding: 14px 15px;
-  color: #fff;
-  font-size:14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  letter-spacing: .08em;
-  border-radius: 0;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-}
-a.animated-button:link:after, a.animated-button:visited:after {
-  content: "";
-  position: absolute;
-  height: 0%;
-  left: 50%;
-  top: 50%;
-  width: 150%;
-  z-index: -1;
-  -webkit-transition: all 0.75s ease 0s;
-  -moz-transition: all 0.75s ease 0s;
-  -o-transition: all 0.75s ease 0s;
-  transition: all 0.75s ease 0s;
-}
-a.animated-button:link:hover, a.animated-button:visited:hover {
-  color: #FFF;
-  text-shadow: none;
-}
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
-  height: 450%;
-}
-a.animated-button:link, a.animated-button:visited {
-  position: relative;
-  display: block;
-  margin: 30px auto 0;
-  padding: 14px 15px;
-  color: #fff;
-  font-size:14px;
-  border-radius: 0;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  letter-spacing: .08em;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-/* Victoria Buttons */
-
-a.animated-button.victoria-one {
-  border: 2px solid #D24D57;
-}
-a.animated-button.victoria-one:after {
-  background: #D24D57;
-  -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-  -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-  transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-}
-a.animated-button.victoria-two {
-  border: 2px solid #D24D57;
-}
-a.animated-button.victoria-two:after {
-  background: #D24D57;
-  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-  transform: translateX(-50%) translateY(-50%) rotate(25deg);
-}
-
-}
-</style>
-<div class="jumbotron text-center">
-
-  <div class="container">
+<!-- <html>
+  <head>
+    <title>Pose Estimation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+	img {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	  width: 35%
+	}
+    </style>
+  </head>
+  <body>
+    <div class="container text-center mt-5">
+      <h1>Pose Estimation</h1>
+      <a class="btn btn-primary text-white mt-5 mx-4" href="/real_time">Real Time</a>
+      <a class="btn btn-secondary text-white mt-5 mx-4" type="file" href="/upload_video">Upload Video</a>
+    </div>
     
-    <h1>POSE ESTIMATION SYSTEM</h1>
-    <p style="color:#888;">Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an Body.</p>
-    
-  </div>
-</div>
-<div class="container"> 
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h1></h1>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pose Estimation</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body style="background-color: #9c9c9c;">
+	<div id="Main">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+			<div class="container">
+			<div class="navbar-collapse"  id="navbar">
+					<a class="navbar-brand" href="/">Pose Estimation</a>
+				<ul class="navbar-nav mr-5 mt-.90 ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="/">Home</a>
+					</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about_us">About Us</a>
+				</li>
+			</div>
+			</div>
+		</nav>
+	</div>
+  <div class="d-flex container mt-5">
+    <div class="container text-center my-auto mr-5">
+        <h1>Pose Estimation</h1>
+        <h5>Analyze Pose Estimation with Machine Learning</h5>
+        <div class="d-flex flex-column mx-auto" style="width: 200px;"> 
+          <a class="btn btn-info text-white w-100 mt-5" href="/real_time">Real Time</a>
+          <a class="btn btn-info text-white w-100 mt-5 " type="file" href="/upload_video">Upload Video</a>
+        </div>
+    </div>
+    <div class="container text-center ml-5">
+      <img  style="height: 600px; width:500px; border: 8px solid grey; border-radius: 8px;" src="/static/pose.png">
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-6 col-sm-6 col-xs-6"> <a href="/exec3" class="btn btn-sm animated-button victoria-one">REAL-TIME POSE ESTIMATION</a> </div>
-    <div class="col-md-6 col-sm-6 col-xs-6"> <a href="/exec" class="btn btn-sm animated-button victoria-two">TAG Person</a> </div> 
+
 </body>
 </html>
